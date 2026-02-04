@@ -1,18 +1,83 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8" />
-  <title>My Blog</title>
-</head>
-<body>
-  <h1>我的 Blog</h1>
+    <meta charset="UTF-8">
+    <title>Yu's Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <ul>
-    <li>
-      <a href="posts/20260204_Blog Post Writer-saved.html">
-        財經脈動 2026.02.04｜全球頭條深度解析
-      </a>
-    </li>
-  </ul>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                         Roboto, "Noto Sans TC", sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .post {
+            margin-top: 40px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .post a {
+            text-decoration: none;
+            color: #007acc;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .post a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 60px;
+            font-size: 0.9rem;
+            color: #888;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Yu's Blog</h1>
+        <p>
+            記錄專案實作、工程思考、AI 與系統設計的筆記。
+        </p>
+
+        <div class="post">
+            <a href="20260204_Blog Post Writer-saved.html">
+                📄 單頁 Blog 文章：Blog Post Writer
+            </a>
+            <p>
+                使用 AI 協助撰寫技術文章的實作紀錄與反思。
+            </p>
+        </div>
+
+        <footer>
+            © 2026 Yu · Built with HTML & GitHub Pages
+        </footer>
+    </div>
 </body>
 </html>
